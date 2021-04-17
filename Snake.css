@@ -1,0 +1,122 @@
+* {
+     outline: none;
+     user-select: none;
+     font-family: 'Roboto';
+ }
+
+body {
+    margin: 0;
+    background: #a8a8a8;
+}
+
+#wrapper {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    overflow: hidden;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #377335;
+}
+
+td {
+    border: 1px solid black;
+    text-align: center;
+    overflow: hidden;
+}
+
+.snake {
+    background: lightgreen;
+}
+
+.apple {
+    background: black;
+ 
+}
+
+button {
+    overflow: hidden;
+    width: 60px;
+    height: 60px;
+    border-radius: 2px;
+    border: 1px solid #AAA;
+    background: #ccc;
+}
+
+.btns1 {
+    margin-top: 100px;
+    position: fixed;
+    width: 186px;
+    left: 50%;
+    height: 60px;
+    transform: translateX(-98%);
+}
+
+.btns1 button:first-child {
+    margin: 0 60px 0 0;
+}
+
+.btns2 {
+    width: 60px;
+    height: 190px;
+    position: fixed;
+    left: 50%;
+    transform: translateX(-200%);
+    margin-top: 40px;
+}
+
+.btns2 button {
+    display: block;
+}
+
+.btns button:first-child {
+    margin: 0 0 60px 0;
+}
+
+#over {
+    display: none;
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+#over2 {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: #EEE;
+}
+
+h1 {
+    display: none;
+    color: black;
+    font-weight: normal;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+h2 {
+    display: none;
+    color: black;
+    font-weight: normal;
+    position: fixed;
+    left: 50%;
+    bottom: 20px;
+    font-size: .8em;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
+
+h3 {
+    color: 000000;
+    font-weight: normal;
+    position: fixed;
+    left: 50%;
+    top: 40%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+}
